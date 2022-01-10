@@ -10,12 +10,12 @@ This is an implemention for our IJIS(International Journal of intelligent System
 
 ## Datasets
 
-+ Yelp2018: We provide the processed dataset in [Data file](/data/yelp2018).
++ Yelp2018: We provide the processed dataset in [data file](/data).
 + Kwai and TikTok: we provide the URL of original data. We do not provide the processed dataset here because we don't make sure whether we have the right to open it. If you have difficulties getting it or processing it, you can contact us.
-  [Kwai original data](https://www.kuaishou.com/activity/uimc); [TikTok original data](https://www.biendata.xyz/competition/icmechallenge2019/)
+  [Kwai original data](https://www.kuaishou.com/activity/uimc); [TikTok original data](https://www.biendata.xyz/competition/icmechallenge2019/).
 
 ## Parameters
-Key parameters are mentioned in our paper. Please refer to the paper. Other parameters are all listed in the parse_args part.
+Key parameters are mentioned in our paper. Please refer to the paper. Other parameters are all listed in the [parse_args part](body.py).
 
 
 ## Commands 
@@ -91,10 +91,10 @@ You can refer to the code [LCM](https://github.com/gusye1234/KD_on_Ranking) for 
 
 ## Notation
 
-There are four pruning rules for IMP-MRS in our code. This paper only studies "the method of pruning the representation of user and item together ". That is 
-  ```
---part == join.
-  ```
+There are four pruning rules for IMP-MRS in our code. This paper only studies "the method of pruning the representation of user and item together ". That means we use  ```
+--part == join
+	```
+in our method.
 
 ## Citation
 If you use our codes in your research, please cite our paper.

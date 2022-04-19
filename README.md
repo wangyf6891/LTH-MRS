@@ -1,7 +1,7 @@
 # LTH-MRS
 This is our pytorch implemention for the paper:
 
-Yanfang Wang, Yongduo Sui, Xiang Wang, Zhenguang Liu, Xiangnan He. Exploring lottery ticket hypothesis in media recommender systems, [Paper in International Journal of Intelligent Systems](https://doi.org/10.1002/int.22827) or [Paper in arXiv](https://arxiv.org/abs/2108.00944). International Journal of intelligent Systems (IJIS) 2021.
+>Yanfang Wang, Yongduo Sui, Xiang Wang, Zhenguang Liu, Xiangnan He. Exploring lottery ticket hypothesis in media recommender systems, [Paper in International Journal of Intelligent Systems](https://doi.org/10.1002/int.22827) or [Paper in arXiv](https://arxiv.org/abs/2108.00944). International Journal of intelligent Systems (IJIS) 2021.
 
 ## Requirements
 + pytorch == 1.4.0+cu100
